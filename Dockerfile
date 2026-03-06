@@ -1,4 +1,4 @@
-FROM default-api.services.pkg.dev/nginx:alpine
+FROM nginx:alpine
 
 # Copy static assets into nginx server directory
 COPY . /usr/share/nginx/html
